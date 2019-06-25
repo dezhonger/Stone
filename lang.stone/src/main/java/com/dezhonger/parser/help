@@ -1,0 +1,12 @@
+首先：假设我们要处理这样一条语法规则
+paren: "(" expr ")"
+非终结符paren表示的是由括号括起的表达式。这条规则的右半部分是从primary的模式中抽取的。
+转换为java语言的得到下面的代码
+
+Parser paren = rule().sep("(").ast(expr).sep(")");
+rule(): 用于创建Parser对象的factory方法。由它创建的Parser对象的模式为空，需要依次出现顺序向模式中添加终结符或非终结符。
+左右括号不仅是终结符，也是分隔符，因此使用sep()添加，非终结符使用ast()添加,其参数是一个需要添加的非终结符对应的Parser对象
+
+factor: "-" primary | primary
+Parser factor = rule().or( rule().sep("-").ast(primary), primary);
+

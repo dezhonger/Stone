@@ -16,10 +16,19 @@ import static com.dezhonger.parser.Parser.Operators;
 
 /**
  * Created by dezhonger on 2019/6/25
+ * BasicParser是一个语法分析程序，定义了大量的Parser类型的字段，例如primary字段的定义基于非终结符primary的语法规则，factor和block同理，都是相应的java语言的语法规则
+ *
+ * 根据定义的Parser对象能够根据各种类型的非终结符模式来执行语法分析。
+ * 例如：将此法分析器作为参数，调用program字段的parse方法，就能够从词法分析器获取一行程序中包含的单词，并对其做语法分析，返回一颗语法树。
+ * 请注意一下，这是一个public方法，仅用于调用program字段的parse方法
+ *
  */
 
 
 public class BasicParser {
+    /**
+     * 包含的标识符无法作为变量名使用
+     */
     HashSet<String> reserved = new HashSet<>();
     Parser.Operators operators = new Parser.Operators();
 

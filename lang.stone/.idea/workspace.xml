@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33a44f9-c63b-48ec-9782-8cb42814b89f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ParserRunner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/help" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,92 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/BlockStmnt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/ForStmnt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/IfStmnt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/WhileStmnt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/StringLiteral.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/PrimaryExpr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/NullStmnt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/NegativeExpr.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/help">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="357" selection-start-line="357" selection-end-line="359" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6360#6361#0" expanded="true" />
-                <element signature="e#6426#6427#0" expanded="true" />
-                <element signature="class#Expr#0;class#Parser#0" />
-                <element signature="e#10527#10528#0" expanded="true" />
-                <element signature="e#10555#10556#0" expanded="true" />
-                <element signature="e#11259#11260#0" expanded="true" />
-                <element signature="e#11299#11300#0" expanded="true" />
-              </folding>
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -114,10 +32,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="-749">
+              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="459" column="18" selection-start-line="459" selection-start-column="18" selection-end-line="459" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6422#6423#0" expanded="true" />
+                <element signature="e#6488#6489#0" expanded="true" />
+                <element signature="class#Expr#0;class#Parser#0" />
+                <element signature="e#10589#10590#0" expanded="true" />
+                <element signature="e#10617#10618#0" expanded="true" />
+                <element signature="e#11534#11535#0" expanded="true" />
+                <element signature="e#11574#11575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,6 +73,7 @@
     <findStrings>
       <find>Operators</find>
       <find>or(</find>
+      <find>iden</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/Name.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/BinaryExpr.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ParserRunner" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/PrimaryExpr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/NegativeExpr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/BlockStmnt.java" />
@@ -175,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/ForStmnt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/runner/ParserRunner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Runner" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/help" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java" />
       </list>
     </option>
@@ -427,6 +366,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\zwl\AppData\Roaming\Subversion</configuration>
   </component>
@@ -438,7 +380,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561470437999</updated>
       <workItem from="1561470441804" duration="26000" />
-      <workItem from="1561470566597" duration="6787000" />
+      <workItem from="1561470566597" duration="8914000" />
     </task>
     <task id="LOCAL-00001" summary="条件语句节点">
       <created>1561476860797</created>
@@ -451,14 +393,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6813000" />
+    <option name="totallyTimeSpent" value="8940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.17678958" visible="true" weight="0.14605543" />
-      <window_info id="Structure" order="1" sideWeight="0.8232104" side_tool="true" weight="0.15778251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40238613" visible="true" weight="0.14605543" />
+      <window_info id="Structure" order="1" sideWeight="0.5976139" side_tool="true" weight="0.14605543" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -854,31 +796,38 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ast/NegativeExpr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/help">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="357" selection-start-line="357" selection-end-line="359" />
+        <state relative-caret-position="290">
+          <caret line="459" column="18" selection-start-line="459" selection-start-column="18" selection-end-line="459" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6360#6361#0" expanded="true" />
-            <element signature="e#6426#6427#0" expanded="true" />
+            <element signature="e#6422#6423#0" expanded="true" />
+            <element signature="e#6488#6489#0" expanded="true" />
             <element signature="class#Expr#0;class#Parser#0" />
-            <element signature="e#10527#10528#0" expanded="true" />
-            <element signature="e#10555#10556#0" expanded="true" />
-            <element signature="e#11259#11260#0" expanded="true" />
-            <element signature="e#11299#11300#0" expanded="true" />
+            <element signature="e#10589#10590#0" expanded="true" />
+            <element signature="e#10617#10618#0" expanded="true" />
+            <element signature="e#11534#11535#0" expanded="true" />
+            <element signature="e#11574#11575#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        <state relative-caret-position="-749">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
