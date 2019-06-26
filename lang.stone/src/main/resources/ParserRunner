@@ -9,3 +9,10 @@ while i < 10 {
 	i = i + 1
 }
 even + odd
+
+
+
+a = 0
+b = 1
+c = 2
+d = a + b + c

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33a44f9-c63b-48ec-9782-8cb42814b89f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/help" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ParserRunner" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ParserRunner" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-749">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="2247">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,18 +41,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="459" column="18" selection-start-line="459" selection-start-column="18" selection-end-line="459" selection-end-column="18" />
+            <state relative-caret-position="1134">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6422#6423#0" expanded="true" />
-                <element signature="e#6488#6489#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#5869#5870#0" expanded="true" />
+                <element signature="e#5901#5902#0" expanded="true" />
                 <element signature="class#Expr#0;class#Parser#0" />
-                <element signature="e#10589#10590#0" expanded="true" />
-                <element signature="e#10617#10618#0" expanded="true" />
-                <element signature="e#11534#11535#0" expanded="true" />
-                <element signature="e#11574#11575#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/runner/ParserRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ParserRunner">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="14" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,7 +89,9 @@
     <findStrings>
       <find>Operators</find>
       <find>or(</find>
+      <find>elements.add</find>
       <find>iden</find>
+      <find>ortree</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/NumberLiteral.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/Name.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/BinaryExpr.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ParserRunner" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/PrimaryExpr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/NegativeExpr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/ast/BlockStmnt.java" />
@@ -115,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/help" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ParserRunner" />
       </list>
     </option>
   </component>
@@ -143,133 +161,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dezhonger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dezhonger" type="462c0819:PsiDirectoryNode" />
-              <item name="ast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dezhonger" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dezhonger" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dezhonger" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dezhonger" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lang.stone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lang.stone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="swing" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +274,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561470437999</updated>
       <workItem from="1561470441804" duration="26000" />
-      <workItem from="1561470566597" duration="8914000" />
+      <workItem from="1561470566597" duration="10267000" />
     </task>
     <task id="LOCAL-00001" summary="条件语句节点">
       <created>1561476860797</created>
@@ -393,24 +287,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8940000" />
+    <option name="totallyTimeSpent" value="10293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40238613" visible="true" weight="0.14605543" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40238613" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" sideWeight="0.5976139" side_tool="true" weight="0.14605543" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5824295" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4208243" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44577006" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4088937" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -419,6 +311,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1988273" />
@@ -458,6 +351,15 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -537,16 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ui/CodeDialogConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/ui/CodeDialogConsole.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -612,13 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ParserRunner">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -727,16 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/runner/ParserRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Runner">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -807,30 +683,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="459" column="18" selection-start-line="459" selection-start-column="18" selection-end-line="459" selection-end-column="18" />
+        <state relative-caret-position="2247">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6422#6423#0" expanded="true" />
-            <element signature="e#6488#6489#0" expanded="true" />
-            <element signature="class#Expr#0;class#Parser#0" />
-            <element signature="e#10589#10590#0" expanded="true" />
-            <element signature="e#10617#10618#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
-            <element signature="e#11574#11575#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/BasicParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="1134">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#5869#5870#0" expanded="true" />
+            <element signature="e#5901#5902#0" expanded="true" />
+            <element signature="class#Expr#0;class#Parser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dezhonger/runner/ParserRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ParserRunner">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="14" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
