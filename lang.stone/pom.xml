@@ -20,5 +20,14 @@
         </plugins>
     </build>
 
+<!--    <dependencies>-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.javassist/javassist &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.javassist</groupId>-->
+<!--            <artifactId>javassist</artifactId>-->
+<!--            <version>3.25.0-GA</version>-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
+
 
 </project>
