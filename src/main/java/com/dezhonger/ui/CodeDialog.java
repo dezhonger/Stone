@@ -27,6 +27,9 @@ public class CodeDialog extends Reader  {
     public int read(char[] cbuf, int off, int len) throws IOException {
         if (buffer == null) {
             String in = showDialog();
+//            System.out.println("start");
+//            System.out.println("in: " + in);
+//            System.out.println("end");
             if (in == null) {
                 return -1;
             } else {
