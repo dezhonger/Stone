@@ -22,6 +22,8 @@ import java.util.List;
 
 /**
  * Created by dezhonger on 2019/6/26
+ *
+ * 计算ast表达式
  */
 @Reviser
 public class BasicEvaluator {

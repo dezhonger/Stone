@@ -31,7 +31,6 @@ import static com.dezhonger.parser.Parser.rule;
  *
  */
 
-
 public class BasicParser {
     /**
      * 包含的标识符无法作为变量名使用

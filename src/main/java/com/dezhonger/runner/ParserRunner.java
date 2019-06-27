@@ -9,6 +9,10 @@ import com.dezhonger.ui.CodeDialog;
 
 /**
  * Created by dezhonger on 2019/6/25
+ *
+ * 语法分析器
+ * 输入 token序列
+ * 输出 ast
  */
 public class ParserRunner {
     public static void main(String[] args) throws ParseException {

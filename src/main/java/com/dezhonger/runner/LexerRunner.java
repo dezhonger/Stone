@@ -7,10 +7,11 @@ import com.dezhonger.ui.CodeDialog;
 
 /**
  * Created by dezhonger on 2019/6/25
+ *
+ * 词法分析器
+ * 输入：句子
+ * 输出：token序列
  */
-
-
-
 public class LexerRunner {
     public static void main(String[] args) throws ParseException {
         Lexer l = new Lexer(new CodeDialog());

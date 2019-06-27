@@ -13,8 +13,9 @@ import com.dezhonger.token.Token;
 import com.dezhonger.ui.CodeDialog;
 
 /**
- * Basic interpreter
- * Created by yangruihan on 2016/11/24.
+ *
+ * Basic interpreter 解释器
+ * Created by dezhonger on 2019/6/25
  */
 public class BasicInterpreter {
     public static void main(String[] args) throws ParseException {
