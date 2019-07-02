@@ -8,6 +8,7 @@ import java.io.Reader;
 /**
  * Created by dezhonger on 2019/6/27
  * 手工设计词法分析器
+ * chapter 15
  */
 public class LexerV2 {
     private static final int EMPTY = -1;
